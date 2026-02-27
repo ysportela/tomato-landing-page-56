@@ -36,6 +36,12 @@
 
     --radius: 0.5rem;
 
+    --timeline-bg: 300 2% 92%;
+    --timeline-line: 0 0% 63%;
+    --timeline-big-text: 0 0% 63%;
+    --timeline-dot-active: 8 100% 60%;
+    --timeline-text: 0 2% 12%;
+
     --sidebar-background: 0 2% 10%;
     --sidebar-foreground: 0 0% 98%;
     --sidebar-primary: 8 100% 60%;
