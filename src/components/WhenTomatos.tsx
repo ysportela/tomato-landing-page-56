@@ -104,7 +104,7 @@ const WhenTomatos = () => {
       </div>
 
       {/* Navigation arrows */}
-      <div className="flex items-center gap-12 px-8 md:px-24 pb-12">
+      <div className="flex items-center px-8 pb-12 mx-[139px] gap-[156px] md:px-[136px]">
         <button
           onClick={prev}
           disabled={current === 0}
