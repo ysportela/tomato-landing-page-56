@@ -1,5 +1,5 @@
 import heroVideo from "@/assets/hero-video.mp4";
-
+import WhenTomatos from "@/components/WhenTomatos";
 const Index = () => {
   return (
     <div className="relative min-h-screen w-full overflow-hidden bg-background">
@@ -29,7 +29,11 @@ const Index = () => {
           </div>
         </div>
       </div>
-    </div>);
+    </div>
+
+      {/* When Tomatos Timeline Section */}
+      <WhenTomatos />
+    </>);
 
 };
 
