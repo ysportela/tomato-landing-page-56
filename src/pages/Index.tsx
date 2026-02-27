@@ -1,4 +1,4 @@
-import heroVideo from "@/assets/hero-video.mp4";
+import heroVideo from "@/assets/HERO PAGE.mov";
 import WhenTomatos from "@/components/WhenTomatos";
 const Index = () => {
   return (
@@ -10,7 +10,7 @@ const Index = () => {
           loop
           muted
           playsInline
-          className="absolute top-0 right-[-40px] h-full w-[65%] object-cover object-left mix-blend-multiply">
+          className="absolute top-0 right-[-40px] h-full w-[100%] object-cover object-left mix-blend-multiply">
           <source src={heroVideo} type="video/mp4" />
         </video>
 

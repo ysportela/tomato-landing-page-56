@@ -31,7 +31,7 @@ const WhenTomatos = () => {
   const next = () => setCurrent((c) => Math.min(slides.length - 1, c + 1));
 
   // Timeline dot positions (percentage across the full width)
-  const dotPositions = [15, 30, 45, 60, 75];
+  const dotPositions = [15, 30, 45, 47, 65, 67, 75];
 
   // Calculate the offset so the active dot is roughly at ~35% from left
   const targetPercent = 35;
