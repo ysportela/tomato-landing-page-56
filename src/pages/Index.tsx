@@ -16,17 +16,6 @@ const Index = () => {
 
       {/* Content Overlay */}
       <div className="relative z-10 flex min-h-screen flex-col">
-        {/* Nav */}
-        <nav className="flex items-center justify-between px-8 py-6 md:px-16">
-          <span className="text-lg font-bold tracking-tight text-foreground">
-            TOMATO<span className="text-primary">.</span>
-          </span>
-          <div className="hidden items-center gap-8 text-sm font-medium text-muted-foreground md:flex">
-            <a href="#" className="transition-colors hover:text-foreground">Products</a>
-            <a href="#" className="transition-colors hover:text-foreground">About</a>
-            <a href="#" className="transition-colors hover:text-foreground">Contact</a>
-          </div>
-        </nav>
 
         {/* Hero Content */}
         <div className="flex flex-1 items-center px-8 md:px-16">
