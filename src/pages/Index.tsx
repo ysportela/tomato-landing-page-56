@@ -9,7 +9,7 @@ const Index = () => {
         loop
         muted
         playsInline
-        className="absolute top-0 right-[-40px] h-full w-[65%] object-cover object-left">
+        className="absolute top-0 right-[-40px] h-full w-[65%] object-cover object-left mix-blend-multiply">
 
         <source src={heroVideo} type="video/mp4" />
       </video>
