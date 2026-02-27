@@ -31,18 +31,12 @@ const Index = () => {
         {/* Hero Content */}
         <div className="flex flex-1 items-center px-8 md:px-16">
           <div className="max-w-xl animate-fade-up">
-            <h1 className="text-5xl font-bold leading-[1.1] tracking-tight text-foreground md:text-7xl lg:text-8xl">
+            <h1 className="text-5xl font-bold leading-[1.1] tracking-tight md:text-7xl lg:text-8xl" style={{ color: '#201E1F' }}>
               Pure{" "}
-              <span className="text-primary">Flavor</span>
+              <span style={{ color: '#FF5233' }}>Flavor</span>
               <br />
               Real Power
             </h1>
-            <p className="mt-6 max-w-md text-base text-muted-foreground md:text-lg">
-              Farm-fresh tomatoes packed with nutrients. Experience the taste of nature, delivered to your table.
-            </p>
-            <button className="mt-8 rounded-full bg-primary px-8 py-3 text-sm font-semibold text-primary-foreground transition-transform hover:scale-105 active:scale-95">
-              Discover More
-            </button>
           </div>
         </div>
       </div>
